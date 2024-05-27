@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venue - Descubre la Música en Vivo en Lima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="logo">
+            <img src="images/venue-logo.png" alt="Venue Logo">
+            <h1>VENUE</h1>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#hero">Inicio</a></li>
+              <li><a href="#about">Sobre Nosotros</a></li>
+              <li><a href="#contact">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    
+    <section id="hero">
+        <div class="background">
+          <video autoplay muted loop playsinline>
+            <source src="images/hero-background.mp4" type="video/mp4">
+            <!-- Video by BRoll.io: https://www.pexels.com/video/indie-band-plays-music-on-stage-852304/ -->
+          </video>
+        </div>
+        <div class="overlay">
+          <h1>Descubre eventos musicales a tu alrededor</h1>
+          <p>Find the best live music events and venues in Lima with Venue</p>
+          <div class="app-store-buttons">
+            <a href="https://www.appstore.com/"></a>
+            <a href="https://play.google.com/store/apps/"></a>
+          </div>
+        </div>
+      </section>
+
+    <div class="back omg"></div>
+    <section id="about">
+        <div class="container">
+            <h2>SOBRE NOSOTROS</h2>
+            <img src="images/venue.png" alt="venue">
+            <p>Venue busca facilitar el acceso a la música en vivo en Lima, promoviendo la asistencia a eventos musicales y abordando los problemas de interés, tiempo, dinero y desconocimiento tanto del público como de los establecimientos y músicos. Nuestro objetivo principal es revitalizar la escena musical local, aumentando la rentabilidad de bares y músicos y generando un mayor interés por la música en vivo.</p>
+            <div class="benefits">
+                <div class="benefit">
+                    <img src="images/conexion.png" alt="Conexión fácil">
+                    <h3 class="c">Conexión fácil</h3>
+                    <p>Conéctate con músicos y locales rápidamente.</p>
+                </div>
+                <div class="benefit">
+                    <img src="images/ubicacion.png" alt="Actualizaciones en tiempo real">
+                    <h3 class="a">Actualizaciones en tiempo real</h3>
+                    <p>Recibe notificaciones de eventos y ofertas.</p>
+                </div>
+                <div class="benefit">
+                    <img src="images/evento.png" alt="Eventos personalizados">
+                    <h3 class="e">Eventos personalizados</h3>
+                    <p>Encuentra eventos basados en tus intereses.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works">
+        <div class="container">
+            <h2>Cómo Funciona</h2>
+            <ol>
+                <li>Descargar la app</li>
+                <li>Crear un perfil</li>
+                <li>Buscar y seguir eventos y artistas</li>
+                <li>Asistir a eventos y dejar reseñas</li>
+            </ol>
+        </div>
+        <div>
+            <img src="images/screenshot1.png" alt="">
+            <img src="images/screenshot2.png" alt="">
+        </div>
+    </section>
+    
+    <section id="testimonials">
+        <div class="container">
+            <h2>Testimonios</h2>
+            <div class="testimonial">
+                <p>"Venue ha transformado mi vida musical. Ahora puedo encontrar eventos en vivo fácilmente y conectarme con otros aficionados."</p>
+                <p>- Usuario Feliz</p>
+            </div>
+            <div class="testimonial">
+                <p>"Gracias a Venue, nuestro bar ha visto un aumento en los clientes gracias a los eventos en vivo."</p>
+                <p>- Dueño de Local</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="faq">
+        <div class="container">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="faq-item">
+                <h3>¿Cómo descargo la app?</h3>
+                <p>Puedes descargar Venue desde la App Store o Google Play.</p>
+            </div>
+            <div class="faq-item">
+                <h3>¿Hay algún costo?</h3>
+                <p>La app es gratuita, pero ofrecemos un plan premium con beneficios adicionales.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <form>
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <a href="#" class="cta">ENVIAR</a>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#about">Sobre nosotros</a></li>
+                <li><a href="#how-it-works">Cómo funciona</a></li>
+                <li><a href="#faq">Preguntas frecuentes</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <p>&copy; Todos los derechos reservados Venue 2024</p>
+        </div>
+    </footer>
+</body>
+</html>
+<script src="script.js"></script>
